@@ -1,0 +1,510 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ari\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/twentyten\n"
+"POT-Creation-Date: 2010-06-15 16:21+0000\n"
+"PO-Revision-Date: 2011-07-02 14:30+0100\n"
+"Last-Translator: bpmildh <bjorn@verklighet.nu>\n"
+"Language-Team: Linkmaster.se <linkmaster@linkmaster.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ ari
+#: 404.php:7
+#: loop.php:3
+msgid "Not Found"
+msgstr "Hittades inte"
+
+#@ ari
+#: 404.php:8
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr "Sidan kan tyvärr inte hittas. Prova att söka."
+
+#@ ari
+#: archive.php:16
+msgid "Blog Archives"
+msgstr "Bloggarkiv"
+
+#@ ari
+#: functions.php:213
+#, php-format
+msgid "View all posts by %s"
+msgstr "Se alla artiklar av %s"
+
+#@ ari
+#: functions.php:70
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Läs mer <span class=\"meta-nav\">&rarr;</span>"
+
+#@ ari
+#: loop.php:22
+#: page.php:16
+#: single.php:14
+msgid "Pages:"
+msgstr "Sidor:"
+
+#@ ari
+#: comments.php:2
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Artikeln är skyddad. Ange lösenordet för att se kommentarer."
+
+#@ ari
+#: functions.php:30
+msgid "Primary Navigation"
+msgstr "Primär navigation"
+
+#@ ari
+#: functions.php:126
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar inväntar moderering."
+
+#@ ari
+#. translators: 1: date, 2: time
+#: functions.php:119
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s kl %2$s"
+
+#@ ari
+#: functions.php:144
+msgid "(Edit)"
+msgstr "(Redigera)"
+
+#@ ari
+#: functions.php:144
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#@ ari
+#: functions.php:170
+msgid "Primary Widget Area"
+msgstr "Primärt widget-område"
+
+#@ ari
+#: functions.php:181
+msgid "Secondary Widget Area"
+msgstr "Sekundärt widget-område"
+
+#@ ari
+#: functions.php:204
+#, php-format
+msgid "<span class=\"%1$s\">Posted on</span> %2$s <span class=\"meta-sep\">by</span> %3$s"
+msgstr "<span class=\"%1$s\">Publicerat</span> %2$s <span class=\"meta-sep\">av</span> %3$s"
+
+#@ ari
+#: loop.php:4
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Arkivsidan du efterfrågar finns tyvärr inte, prova att söka istället."
+
+#@ ari
+#: loop.php:13
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink till %s"
+
+#@ ari
+#: loop.php:39
+#: single.php:41
+msgid "Leave a comment"
+msgstr "Lämna en kommentar"
+
+#@ ari
+#: search.php:14
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Din sökning gav inget resultat. Försök med ett annat sökord."
+
+#@ ari
+#: sidebar-secondary.php:20
+msgid "Archives"
+msgstr "Arkiv"
+
+#@ ari
+#: sidebar-secondary.php:34
+msgid "Meta"
+msgstr "Meta"
+
+#@ ari
+#: archive.php:10
+#, php-format
+msgid "Daily Archives for <strong>%s</strong>"
+msgstr "Dagligt arkiv för <strong>%s</strong>"
+
+#@ ari
+#: archive.php:12
+#, php-format
+msgid "Monthly Archives for <strong>%s</strong>"
+msgstr "Månadsarkiv för <strong>%s</strong>"
+
+#@ ari
+#: archive.php:14
+#, php-format
+msgid "Yearly Archives for <strong>%s</strong>"
+msgstr "Årsarkiv för <strong>%s</strong>"
+
+#@ ari
+#: category.php:5
+#, php-format
+msgid "Category Archives for <strong>%s</strong>"
+msgstr "Kategoriarkiv för <strong>%s</strong>"
+
+#@ ari
+#: comments.php:21
+#, php-format
+msgid "One Comment"
+msgid_plural "Comments (%1$s)"
+msgstr[0] "En kommentar"
+msgstr[1] "Kommentarer (%1$s)"
+
+#@ ari
+#: comments.php:30
+msgid "&larr; Older Comments"
+msgstr "&larr; Äldre kommentarer"
+
+#@ ari
+#: comments.php:31
+msgid "Newer Comments &rarr;"
+msgstr "Nyare kommentarer &rarr;"
+
+#@ ari
+#: comments.php:39
+msgid "<p class=\"comment-notes\">Required fields are marked <span class=\"required\">*</span></p>"
+msgstr "<p class=\"comment-notes\">Obligatoriska fält är märkta med <span class=\"required\">*</span></p>"
+
+#@ default
+#: comments.php:41
+msgctxt "noun"
+msgid "Comment"
+msgstr "Kommentar"
+
+#@ ari
+#: functions.php:116
+#, php-format
+msgid "%s <span class=\"says\">says</span>"
+msgstr "%s <span class=\"says\">säger</span>"
+
+#@ ari
+#: functions.php:119
+#: loop.php:40
+#: single.php:42
+msgid "Edit &rarr;"
+msgstr "Redigera &rarr;"
+
+#@ ari
+#: functions.php:153
+msgid "Website"
+msgstr "Webbplats"
+
+#@ ari
+#: functions.php:156
+msgid "Email*"
+msgstr "Epost*"
+
+#@ ari
+#: functions.php:159
+msgid "Name*"
+msgstr "Namn*"
+
+#@ ari
+#: loop.php:19
+msgid "Continue Reading &rarr;"
+msgstr "Läs mer &rarr;"
+
+#@ ari
+#: loop.php:28
+#: single.php:31
+#, php-format
+msgid "Categories: %2$s"
+msgstr "Kategorier: %2$s"
+
+#@ ari
+#: loop.php:35
+#: single.php:38
+#, php-format
+msgid "Tags: %2$s"
+msgstr "Taggar: %2$s"
+
+#@ ari
+#: loop.php:39
+#: single.php:41
+msgid "1 comment"
+msgstr "En kommentar"
+
+#@ ari
+#: loop.php:39
+#: single.php:41
+msgid "% comments"
+msgstr "% kommentarer"
+
+#@ ari
+#: loop.php:51
+msgid "&larr; Older posts"
+msgstr "&larr; Äldre inlägg"
+
+#@ ari
+#: loop.php:52
+msgid "Newer posts &rarr;"
+msgstr "Nyare inlägg &rarr;"
+
+#@ ari
+#: page.php:17
+msgid "Edit this page &rarr;"
+msgstr "Redigera denna sida &rarr;"
+
+#@ ari
+#: search.php:7
+#, php-format
+msgid "Search Results for <strong>%s</strong>"
+msgstr "Sökresultat för <strong>%s</strong>"
+
+#@ ari
+#: search.php:12
+msgid "No Search Result Found"
+msgstr "Sökningen gav inget resultat"
+
+#@ ari
+#: single.php:22
+#, php-format
+msgid "About <span>%s</span>"
+msgstr "Om <span>%s</span>"
+
+#@ ari
+#: tag.php:6
+#, php-format
+msgid "Tag Archives for <strong>%s</strong>"
+msgstr "Tagg-arkiv för <strong>%s</strong>"
+
+#@ ari
+#: functions.php:97
+#: sidebar-secondary.php:27
+msgid "Search"
+msgstr "Sök"
+
+#@ ari
+#: single.php:52
+msgctxt "Previous post link"
+msgid "&larr;  Previous Post"
+msgstr "&larr;  Tidigare inlägg"
+
+#@ ari
+#: single.php:53
+msgctxt "Next post link"
+msgid "Next Post &rarr;"
+msgstr "Nästa inlägg &rarr;"
+
+#@ ari
+#: functions.php:326
+#: functions.php:339
+msgid "Theme Options"
+msgstr "Temats alternativ"
+
+#@ ari
+#: functions.php:383
+msgid "Update Options"
+msgstr "Uppdateringalternativ"
+
+#@ ari
+#: functions.php:353
+msgid "Change the Theme Colors"
+msgstr "Ändra temats färger"
+
+#@ ari
+#: functions.php:356
+msgid "Background Color"
+msgstr "Bakgrundsfärg"
+
+#@ ari
+#: functions.php:357
+msgid " e.g. #FFFFFF or white (default color: white)"
+msgstr "t ex #FFFFFF eller white (Standardfärg: white)"
+
+#@ ari
+#: functions.php:360
+msgid "First Link Color"
+msgstr "Första länkfärgen"
+
+#@ ari
+#: functions.php:364
+msgid "Second Link Color"
+msgstr "Andra länkfärgen"
+
+#@ ari
+#: functions.php:365
+msgid " e.g. #FF0000 or red (default grey link color: #999999)"
+msgstr "t ex #FF0000 eller red (standard för grå länk: #999999)"
+
+#@ ari
+#: functions.php:368
+msgid "Text Color"
+msgstr "Textfärg"
+
+#@ ari
+#: functions.php:369
+msgid " e.g. #4C4C4C (default text color: #4C4C4C)"
+msgstr "t ex #4C4C4C (standard textfärg: #4C4C4C)"
+
+#@ ari
+#: functions.php:374
+msgid "Use an image as your logo"
+msgstr "Använd en bild som logotyp"
+
+#@ ari
+#: functions.php:376
+msgid "Logo Image URL"
+msgstr "Logotyp-bildens URL"
+
+#@ ari
+#: functions.php:378
+msgid "Upload your logo image"
+msgstr "Ladda upp din logotyp-bild"
+
+#@ ari
+#: functions.php:378
+msgid " using the WordPress Media Library and insert the URL here<br/>(the maximum logo image size is: 240 x 75 Pixel)"
+msgstr ", använd WordPress Media Library och fyll sedan i bildens URL här<br/>(maximal bildstorlek är: 240 x 75 pixel)"
+
+#@ ari
+#: functions.php:354
+msgid "(You can find out the HEX value of any color with the <a href=\"http://chir.ag/projects/name-that-color/\" target=\"_blank\">Name that Color</a> online-tool)"
+msgstr "(Du kan hitta HEX-värdet för alla färger med hjälp av online-verktyget <a href=\"http://chir.ag/projects/name-that-color/\" target=\"_blank\">Name that Color</a>)"
+
+#@ ari
+#: comments.php:38
+msgid "Leave a Reply"
+msgstr "Lämna en kommentar"
+
+#@ ari
+#: functions.php:361
+msgid " e.g. #0000FF or blue (default green link color: #88C34B)"
+msgstr "t ex #0000FF eller blue (standard för grön länk: #88C34B)"
+
+#@ ari
+#: header.php:13
+#, php-format
+msgid "Page %s"
+msgstr "Sidan %s"
+
+#@ ari
+#: functions.php:345
+msgid "Switch to the dark theme version"
+msgstr "Växla till den mörka versionen av temat"
+
+#@ ari
+#: functions.php:347
+msgid "Ari dark theme version"
+msgstr "Ari mörk version"
+
+#@ ari
+#: functions.php:348
+msgid " check the box, if you want to use the dark theme version"
+msgstr " markera om du vill använda den mörka versionen av temat"
+
+#@ ari
+#: functions.php:297
+msgid "Title:"
+msgstr "Titel:"
+
+#@ ari
+#: functions.php:299
+msgid "RSS  URL:"
+msgstr "RSS  URL:"
+
+#@ ari
+#: functions.php:300
+msgid "Twitter Text:"
+msgstr "Twitter text:"
+
+#@ ari
+#: functions.php:301
+msgid "Twitter  URL:"
+msgstr "Twitter  URL:"
+
+#@ ari
+#: functions.php:302
+msgid "Facebook Text:"
+msgstr "Facebook text:"
+
+#@ ari
+#: functions.php:303
+msgid "Facebook URL:"
+msgstr "Facebook URL:"
+
+#@ ari
+#: functions.php:304
+msgid "Flickr Text:"
+msgstr "Flickr text:"
+
+#@ ari
+#: functions.php:305
+msgid "Flickr URL:"
+msgstr "Flickr URL:"
+
+#@ ari
+#: functions.php:306
+msgid "Xing Text:"
+msgstr "Xing text:"
+
+#@ ari
+#: functions.php:307
+msgid "Xing URL:"
+msgstr "Xing URL:"
+
+#@ ari
+#: functions.php:308
+msgid "LinkedIn Text:"
+msgstr "LinkedIn text:"
+
+#@ ari
+#: functions.php:309
+msgid "LinkedIn URL:"
+msgstr "LinkedIn URL:"
+
+#@ ari
+#: functions.php:310
+msgid "Delicious Text:"
+msgstr "Delicious text:"
+
+#@ ari
+#: functions.php:311
+msgid "Delicious URL:"
+msgstr "Delicious URL:"
+
+#@ ari
+#: functions.php:298
+msgid "RSS Text:"
+msgstr "RSS text:"
+
+#@ ari
+#: functions.php:172
+msgid "Here you can put one or two of your main widgets (like an intro text, your page navigation or some social site links) in your left sidebar. The sidebar is fixed, so the widgets content will always be visible, even when scrolling down the page."
+msgstr "Här kan du placera en eller två av dina viktigaste widgets (t ex en introtext, sidnavigation eller länkar till sociala sidor) i den vänstra kolumnen. Spalten är fast så innehållet kommer alltid att vara synligt, även när du rullar ned på sidan."
+
+#@ ari
+#: functions.php:183
+msgid "Here you can put all the additional widgets for your right sidebar."
+msgstr "Här kan du placera övriga widgets i den högra spalten."
+
+#@ ari
+#: loop.php:17
+#: loop.php:24
+msgid "by"
+msgstr "av"
+
+#@ default
+#: sidebar-primary.php:11
+msgid "Pages"
+msgstr "Sidor"
+
+#@ ari
+#: sidebar-secondary.php:13
+msgid "Categories"
+msgstr "Kategorier"
+

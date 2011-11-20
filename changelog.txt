@@ -1,0 +1,108 @@
+------------------------------------------------------------------------------------------------------------
+For detailed documentation and support please visit: http://www.elmastudio.de/wordpress-themes/ari/
+------------------------------------------------------------------------------------------------------------
+
+Version 1.1.2 - September 25th 2011
+-----------------------------------
+1. Fixed overlapping footer issue if theme has a very long title (by adding a 70% width to the footer div).
+
+Version 1.1.1 - September 16th 2011
+-----------------------------------
+1. Removed hidden .ds_store (Mac) file in theme folder
+
+
+Version 1.1 - September 1th 2011
+--------------------------------
+1. Bugfix for searchform widget beacuse the searchform widget was breaking the layout (had to delete unneeded closing div in line 99 of functions.php)
+2. Added Swedish and French theme translations to the languages folder
+3. Fixed images resizing for post thumbnails in Smartphone version (line 901 in style.css)
+4. Fixed broken layout problem for long titels and site description.
+5. Added permalink to post date so posts with no titles will still have a permalink.
+6. Deleted display:block for img tag in line 81 and 394 of style.css, also fixes styles for aligncenter, alignleft and alignright to fix images problems.
+7. Bugfix for post thumbnails so thumbnails can resize dynamically.
+8. Fixed styles to display ul and ol lists in comments.
+9. Deleted smoothscroll.js and the entire js folder to make the comments pagination work correctly.
+10. Added styles for comments navigation (style.css line 650 - 658)
+
+
+Version 1.0.8 - 21th August 2011
+--------------------------------
+1. Added Google+ and Vimeo to the Ari social links widget, fixed bugs in the debugging mode and added target=_blank"
+   to the links so the social profiles can be opened esily in a new tab on mobile devices.
+2. Bugfixes in comment form, therefore deleted code line "Comments Form Filters" in functions.php and added disply:block
+   for input fields in style.css line 582.
+3. Added support for post thumbnails (standard size 125px width).
+4. Updated theme options page.
+5. Added styles for sticky posts.
+6. Bugfix for displaying smilies in posts.
+7. Bugfix to resize logo image correctly within the left sidebar (important for viewing on smartphones)
+
+
+Version 1.0.7 - 07th March 2011
+-------------------------------
+1. Bugfix in style.css line 386 to fix auto resizing smaller images to 100% content size.
+
+
+Version 1.0.6 - 05th March 2011
+-----------------------------
+1. Included a clearing div after the content in loop.php to properly clear floated images on multiple 
+page posts (recommended by wordpress.org theme review).
+2. Updated the functions.php and deleted the deregister the WordPress bundled jQuery 
+(as recommended by wordpress.org theme review).
+3. Changed the footer link and text in footer.php.
+
+
+Version 1.0.5 - 08th Feb 2011
+-----------------------------
+1. Bugfix for Internet Explorer 8's auto image height problem.
+2. Fixed the code for the image logo option in header.php.
+
+
+Version 1.0.4 - 30th Jan 2011
+-----------------------------
+1. Updated the theme tags in style.css
+2. Updated styles in style.css for search result page.
+3. Small bugfixes in the template files header.php, footer.php, single.php, loop.php und functions.php 
+after running the theme check plugin.
+
+
+Version 1.0.3 - 27th Jan 2011
+-----------------------------
+1. Included CSS-Styling for the default WordPress image gallery (see style.css line 591 - 614).
+
+2. Included extra style in stlye.css to fix the broken display of large pictures (over 150px width)
+in the right, secondary sidebar (see style.css line 219).
+
+3. Included an filter in functions.php (line 426) to disable the default include of css-styles for the 
+WordPress gallery inside the body-tag.
+
+
+Version 1.0.2 - 20th Jan 2011
+-----------------------------
+1. Fixes on the Ari Social Link Widget code in functions.php (from line 246 - 255), beacuse empty Link icons 
+still visible on firefox and IE browsers.
+
+
+Version 1.0.1 - 13th Jan 2011
+-----------------------------
+1. Fixed the Ari Social Link Widget code in functions.php and included the option to write individuel text
+for the different social links.
+
+2. Included a dark color theme option that can be selected on the theme option page. The CSS file dark.css
+can be found in the new folder "css". To make the dark version work I also updated the header.php file and 
+added line 18 to 20.
+
+3. Changed the screenshot picture.
+
+4. Updated the language files for the German translation de_DE.mo and de_DE.po in the "languages" folder.
+
+5. Updated the description text in style.css (from line 4).
+
+6. Included individual CSS styles for the jQuery thickbox in style.css (from line 667).
+
+7. Included the changelog.txt file in the ari theme folder.
+
+
+Version 1.0 - 22th Dec 2010
+-----------------------------
+Release date of Ari.

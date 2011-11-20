@@ -1,0 +1,44 @@
+/* Ari Dark Theme Version styles
+--------------------------------------------- */
+body {
+	color: #707070;
+	background-color:#1b1c1b;
+}
+/* Links
+--------------------------------------------- */
+#content h2 a {
+	color:#8a8a8a;
+	text-decoration: none;
+}
+a, #content h2 a:hover {
+	color:#b7b7b7;
+}
+h2 a:hover {
+	color:#b7b7b7 ! important;
+	text-decoration:none;
+}
+a:hover {
+	color:#b7b7b7;
+	text-decoration:underline;
+}
+/* --- Link Colors --- */
+#sidebar-primary .logo h1 a {
+	color:#8a8a8a;
+	text-decoration:none;
+}
+#sidebar-primary .logo h1 a:hover {
+	color:#b7b7b7;
+}
+a, ul.sidebar li.widget_text a {
+	color:#8a8a8a;
+	text-decoration: underline;
+}
+ul.sidebar a, p.meta a, .comment-meta a, p.logged-in-as a, a.post-edit-link, #footer a {
+	color:#8a8a8a;
+}
+ul.sidebar li.widget_text a:hover, ul.sidebar a:hover, .comment-meta a:hover, p.logged-in-as a:hover, p.meta a:hover, a.post-edit-link:hover, #footer a:hover {
+	color:#b7b7b7 ! important;
+}
+#searchsubmit:hover, form#commentform p.form-submit input#submit:hover, input.wpcf7-submit:hover  {
+	background:#8a8a8a ! important;
+}

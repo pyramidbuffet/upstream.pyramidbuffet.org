@@ -1,0 +1,517 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ari v1.0.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-04-17 22:56+0100\n"
+"Last-Translator: Matthieu MARTIN <martin.matthieu@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:7
+#: loop.php:3
+#@ ari
+msgid "Not Found"
+msgstr "Non trouvé"
+
+#: 404.php:8
+#@ ari
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr "Désolé, la page demandée n'a pu être trouvée."
+
+#: archive.php:10
+#, php-format
+#@ ari
+msgid "Daily Archives for <strong>%s</strong>"
+msgstr "Archives du jour pour le <strong>%s</strong>"
+
+#: archive.php:12
+#, php-format
+#@ ari
+msgid "Monthly Archives for <strong>%s</strong>"
+msgstr "Archives mensuelles de <strong>%s</strong>"
+
+#: archive.php:14
+#, php-format
+#@ ari
+msgid "Yearly Archives for <strong>%s</strong>"
+msgstr "Archives annuelles de <strong>%s</strong>"
+
+#: archive.php:16
+#@ ari
+msgid "Blog Archives"
+msgstr "Archives du blog"
+
+#: category.php:5
+#, php-format
+#@ ari
+msgid "Category Archives for <strong>%s</strong>"
+msgstr "Archives de la catégorie : <strong>%s</strong>"
+
+#: comments.php:2
+#@ ari
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Cet article est protégé par mot de passe. Saisissez le mot de passe pour voir les commentaires."
+
+#: comments.php:21
+#, php-format
+#@ ari
+msgid "One Comment"
+msgid_plural "Comments (%1$s)"
+msgstr[0] "Un commentaire"
+msgstr[1] "(%1$s) commentaires"
+
+#: comments.php:30
+#@ ari
+msgid "&larr; Older Comments"
+msgstr "&larr; Commentaires plus anciens"
+
+#: comments.php:31
+#@ ari
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires plus récents &rarr;"
+
+#: comments.php:38
+#@ ari
+msgid "Leave a Reply"
+msgstr "Laisser un commentaire"
+
+#: comments.php:39
+#@ ari
+msgid "<p class=\"comment-notes\">Required fields are marked <span class=\"required\">*</span></p>"
+msgstr "<p class=\"comment-notes\">Les champs obligatoires sont indiqués avec <span class=\"requis\">*</span></p>"
+
+#: comments.php:41
+#@ default
+msgctxt "noun"
+msgid "Comment"
+msgstr "Commentaire"
+
+#: footer.php:2
+#, php-format
+#@ ari
+msgid "Theme: %1$s by %2$s."
+msgstr "Thème : %1$s par %2$s."
+
+#: functions.php:30
+#@ ari
+msgid "Primary Navigation"
+msgstr "Menu de navigation principal"
+
+#: functions.php:68
+#@ ari
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lire la suite <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:95
+#: sidebar-secondary.php:22
+#@ ari
+msgid "Search"
+msgstr "Rechercher"
+
+#: functions.php:114
+#, php-format
+#@ ari
+msgid "%s <span class=\"says\">says</span>"
+msgstr "%s <span class=\"says\">dit</span>"
+
+#. translators: 1: date, 2: time
+#: functions.php:117
+#, php-format
+#@ ari
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#: functions.php:117
+#: loop.php:40
+#: single.php:42
+#@ ari
+msgid "Edit &rarr;"
+msgstr "Modifier &rarr;"
+
+#: functions.php:124
+#@ ari
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: functions.php:142
+#@ ari
+msgid "Pingback:"
+msgstr "Ping :"
+
+#: functions.php:142
+#@ ari
+msgid "(Edit)"
+msgstr "(Modifier)"
+
+#: functions.php:151
+#@ ari
+msgid "Website"
+msgstr "Site Web"
+
+#: functions.php:154
+#@ ari
+msgid "Email*"
+msgstr "E-mail*"
+
+#: functions.php:157
+#@ ari
+msgid "Name*"
+msgstr "Nom*"
+
+#: functions.php:168
+#@ ari
+msgid "Primary Widget Area"
+msgstr "Premier emplacement des widgets"
+
+#: functions.php:170
+#@ ari
+msgid "Here you can put one or two of your main widgets (like an intro text, your page navigation or some social site links) in your left sidebar. The sidebar is fixed, so the widgets content will always be visible, even when scrolling down the page."
+msgstr "Vous pouvez placer ici un ou deux de vos widgets principaux (comme un texte introductif, votre menu de navigation ou des liens vers des sites internet de réseaux sociaux) dans votre barre latérale gauche. La barre latérale est fixe, de telle sorte que le contenu des widgets sera toujours visible, même lorsque vous faites défiler la page vers le bas."
+
+#: functions.php:179
+#@ ari
+msgid "Secondary Widget Area"
+msgstr "Second emplacement des widgets"
+
+#: functions.php:181
+#@ ari
+msgid "Here you can put all the additional widgets for your right sidebar."
+msgstr "Vous pouvez placer ici tous les widgets supplémentaires de votre barre latérale droite."
+
+#: functions.php:202
+#, php-format
+#@ ari
+msgid "<span class=\"%1$s\">Posted on</span> %2$s <span class=\"meta-sep\">by</span> %3$s"
+msgstr "<span class=\"%1$s\">Publié le</span> %2$s <span class=\"meta-sep\">par</span> %3$s"
+
+#: functions.php:211
+#, php-format
+#@ ari
+msgid "View all posts by %s"
+msgstr "Voir tous les articles de %s"
+
+#: functions.php:295
+#@ ari
+msgid "Title:"
+msgstr "Titre :"
+
+#: functions.php:296
+#@ ari
+msgid "RSS Text:"
+msgstr "Texte RSS :"
+
+#: functions.php:297
+#@ ari
+msgid "RSS  URL:"
+msgstr "URL RSS :"
+
+#: functions.php:298
+#@ ari
+msgid "Twitter Text:"
+msgstr "Texte Twitter :"
+
+#: functions.php:299
+#@ ari
+msgid "Twitter  URL:"
+msgstr "URL Twitter :"
+
+#: functions.php:300
+#@ ari
+msgid "Facebook Text:"
+msgstr "Texte Facebook :"
+
+#: functions.php:301
+#@ ari
+msgid "Facebook URL:"
+msgstr "URL Facebook :"
+
+#: functions.php:302
+#@ ari
+msgid "Flickr Text:"
+msgstr "Texte Flickr :"
+
+#: functions.php:303
+#@ ari
+msgid "Flickr URL:"
+msgstr "URL Flickr :"
+
+#: functions.php:304
+#@ ari
+msgid "Xing Text:"
+msgstr "Texte Xing :"
+
+#: functions.php:305
+#@ ari
+msgid "Xing URL:"
+msgstr "URL Xing :"
+
+#: functions.php:306
+#@ ari
+msgid "LinkedIn Text:"
+msgstr "Texte LinkedIn :"
+
+#: functions.php:307
+#@ ari
+msgid "LinkedIn URL:"
+msgstr "URL LinledIn :"
+
+#: functions.php:308
+#@ ari
+msgid "Delicious Text:"
+msgstr "Texte Delicious :"
+
+#: functions.php:309
+#@ ari
+msgid "Delicious URL:"
+msgstr "URL Delicious :"
+
+#: functions.php:324
+#: functions.php:337
+#@ ari
+msgid "Theme Options"
+msgstr "Options du thème"
+
+#: functions.php:343
+#@ ari
+msgid "Switch to the dark theme version"
+msgstr "Passer à la version foncée du thème"
+
+#: functions.php:345
+#@ ari
+msgid "Ari dark theme version"
+msgstr "Thème Ari en version foncée"
+
+#: functions.php:346
+#@ ari
+msgid " check the box, if you want to use the dark theme version"
+msgstr " cochez la case, si vous souhaitez utiliser la version foncée du thème"
+
+#: functions.php:351
+#@ ari
+msgid "Change the Theme Colors"
+msgstr "Modifier les couleurs du thème"
+
+#: functions.php:352
+#@ ari
+msgid "(You can find out the HEX value of any color with the <a href=\"http://chir.ag/projects/name-that-color/\" target=\"_blank\">Name that Color</a> online-tool)"
+msgstr "(Vous pouvez trouver la valeur hexadécimale de n'importe quelle couleur avec l'outil en ligne <a href=\"http://chir.ag/projects/name-that-color/\" target=\"_blank\">Name that Color</a>)"
+
+#: functions.php:354
+#@ ari
+msgid "Background Color"
+msgstr "Couleur du fond"
+
+#: functions.php:355
+#@ ari
+msgid " e.g. #FFFFFF or white (default color: white)"
+msgstr "ex. #FFFFFF ou blanc (couleur par défaut: blanc)"
+
+#: functions.php:358
+#@ ari
+msgid "First Link Color"
+msgstr "Couleur du premier lien"
+
+#: functions.php:359
+#@ ari
+msgid " e.g. #0000FF or blue (default green link color: #88C34B)"
+msgstr "ex. #0000FF ou bleu (la couleur par défaut du lien est verte : #88C34B)"
+
+#: functions.php:362
+#@ ari
+msgid "Second Link Color"
+msgstr "Couleur du second lien"
+
+#: functions.php:363
+#@ ari
+msgid " e.g. #FF0000 or red (default grey link color: #999999)"
+msgstr "ex. #FF0000 ou rouge (la couleur des liens par défaut est grise : #999999)"
+
+#: functions.php:366
+#@ ari
+msgid "Text Color"
+msgstr "Couleur du texte"
+
+#: functions.php:367
+#@ ari
+msgid " e.g. #4C4C4C (default text color: #4C4C4C)"
+msgstr "ex. #4C4C4C (couleur du texte par défaut: #4C4C4C)"
+
+#: functions.php:372
+#@ ari
+msgid "Use an image as your logo"
+msgstr "Utiliser une image comme logo"
+
+#: functions.php:374
+#@ ari
+msgid "Logo Image URL"
+msgstr "URL de l'image du logo"
+
+#: functions.php:376
+#@ ari
+msgid "Upload your logo image"
+msgstr "Envoyer l'image du logo"
+
+#: functions.php:376
+#@ ari
+msgid " using the WordPress Media Library and insert the URL here<br/>(the maximum logo image size is: 240 x 75 Pixel)"
+msgstr " en utilisant la bibliothèque des médias de WordPress et insérez l'URL ici<br/>(la taille maximale de l'image du logo est de : 240 x 75 pixels)"
+
+#: functions.php:381
+#@ ari
+msgid "Update Options"
+msgstr "Mettre à jour les options"
+
+#: header.php:13
+#, php-format
+#@ ari
+msgid "Page %s"
+msgstr "Page %s"
+
+#: loop.php:4
+#@ ari
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Désolé, aucun résultat n'a été trouvé pour l'archive demandée. La recherche pourrait vous aider à trouver un article en rapport avec celle-ci."
+
+#: loop.php:13
+#, php-format
+#@ ari
+msgid "Permalink to %s"
+msgstr "Permalien vers %s"
+
+#: loop.php:17
+#: loop.php:24
+#@ ari
+msgid "by"
+msgstr "par"
+
+#: loop.php:19
+#@ ari
+msgid "Continue Reading &rarr;"
+msgstr "Lire la suite &rarr;"
+
+#: loop.php:22
+#: page.php:16
+#: single.php:14
+#@ ari
+msgid "Pages:"
+msgstr "Pages :"
+
+#: loop.php:28
+#: single.php:31
+#, php-format
+#@ ari
+msgid "Categories: %2$s"
+msgstr "Catégories: %2$s"
+
+#: loop.php:35
+#: single.php:38
+#, php-format
+#@ ari
+msgid "Tags: %2$s"
+msgstr "Tags: %2$s"
+
+#: loop.php:39
+#: single.php:41
+#@ ari
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: loop.php:39
+#: single.php:41
+#@ ari
+msgid "1 comment"
+msgstr "1 commentaire"
+
+#: loop.php:39
+#: single.php:41
+#@ ari
+msgid "% comments"
+msgstr "% commentaires"
+
+#: loop.php:51
+#@ ari
+msgid "&larr; Older posts"
+msgstr "&larr; Articles plus anciens"
+
+#: loop.php:52
+#@ ari
+msgid "Newer posts &rarr;"
+msgstr "Articles plus récents &rarr;"
+
+#: page.php:17
+#@ ari
+msgid "Edit this page &rarr;"
+msgstr "Modifier la page &rarr;"
+
+#: search.php:7
+#, php-format
+#@ ari
+msgid "Search Results for <strong>%s</strong>"
+msgstr "Résultats de recherche pour <strong>%s</strong>"
+
+#: search.php:12
+#@ ari
+msgid "No Search Result Found"
+msgstr "Votre recherche n'a donné aucun résultat"
+
+#: search.php:14
+#@ ari
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Désolé, aucun article ne correspond à vos critères de recherche. Veuillez essayer de nouveau avec des mots-clés différents."
+
+#: sidebar-primary.php:11
+#@ default
+msgid "Pages"
+msgstr "Pages"
+
+#: sidebar-secondary.php:12
+#@ default
+msgid "Categories"
+msgstr "Catégories"
+
+#: sidebar-secondary.php:15
+#@ ari
+msgid "Archives"
+msgstr "Archives"
+
+#: sidebar-secondary.php:29
+#@ ari
+msgid "Meta"
+msgstr "Méta"
+
+#: single.php:22
+#, php-format
+#@ ari
+msgid "About <span>%s</span>"
+msgstr "À propos <span>%s</span>"
+
+#: single.php:52
+#@ ari
+msgctxt "Previous post link"
+msgid "&larr;  Previous Post"
+msgstr "&larr;  Articles précédents"
+
+#: single.php:53
+#@ ari
+msgctxt "Next post link"
+msgid "Next Post &rarr;"
+msgstr "Articles suivants &rarr;"
+
+#: tag.php:6
+#, php-format
+#@ ari
+msgid "Tag Archives for <strong>%s</strong>"
+msgstr "Archives du tag : <strong>%s</strong>"
+
